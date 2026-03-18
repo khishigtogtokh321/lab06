@@ -16,7 +16,7 @@ public class InheritanceSortedIntList extends SortedIntList {
 
     @Override
     public boolean add(int num) {
-        totalAdded++;
+        totalAdded += 2;
         return super.add(num);
     }
 
